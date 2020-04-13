@@ -1,0 +1,62 @@
+a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    position: relative;
+    width: 80%;
+    display: block;
+    margin: 9px auto;
+    font-size: 17px;
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background: rgba(3,3,3,.1);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+ a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    padding: 6px 100px;
+    background: rgba(50, 8, 105, 0.562);
+  }
+ a:hover{
+    opacity: 0.2;
+  }
+
+table {
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+ }
+caption, td, th {
+    padding: 0.3em;
+ }
+tbody {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+ }
+tbody th, tfoot th {
+    border: 0;
+ }
+th.name {
+    width: 25%;
+ }
+th.location {
+    width: 20%;
+ }
+th.lasteruption {
+    width: 30%;
+ }
+th.eruptiontype {
+    width: 25%;
+ }
+tfoot {
+    text-align: center;
+    color: #555;
+    font-size: 0.8em;
+ }
